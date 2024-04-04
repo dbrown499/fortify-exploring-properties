@@ -1,0 +1,52 @@
+html {
+    border: 5px solid black;
+    padding: 5px;
+}
+
+body {
+    border: 5px solid black;
+    padding: 5px;
+    height: 50vh;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 5px;
+    height: 290px;
+    width: 200px;
+}
+
+div {
+    border: 1px solid black;
+    padding: 5px;
+}
+button {
+    color: white;
+    background-color: darkgray;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.answer-box {
+    height: 10vw;
+    margin-bottom: 0px;
+}
+
+#answer {
+    height: 7vw;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#zero {
+    grid-column: 1 / span 2;
+    text-align: left;
+}
